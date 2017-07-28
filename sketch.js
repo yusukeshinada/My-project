@@ -30,11 +30,12 @@ function setup(){
 }
 
 function draw(){
-	background(255);
+	background(0);
 	strokeWeight(1);
-	stroke(200);
+	stroke(200,220,0);
 	noFill();
 	for(var i = 0; i < pointsNum; i++){
+		
 		ellipse(points[i].x, points[i].y, rad[i], rad[i]);
 	}
 
