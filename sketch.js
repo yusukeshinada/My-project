@@ -39,7 +39,7 @@ function draw(){
 		ellipse(points[i].x, points[i].y, rad[i], rad[i]);
 	}
 
-	stroke(50);
+	stroke(200,200,0);
 
 
 
