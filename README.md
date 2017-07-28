@@ -1,1 +1,1 @@
-# My-project
+playground for stars
