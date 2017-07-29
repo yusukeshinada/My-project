@@ -30,9 +30,9 @@ function setup(){
 }
 
 function draw(){
-	background(0);
+	background(255);
 	strokeWeight(1);
-	stroke(200,220,0);
+	stroke(0);
 	noFill();
 	for(var i = 0; i < pointsNum; i++){
 		
