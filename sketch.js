@@ -34,17 +34,12 @@ function draw(){
 	strokeWeight(1);
 	stroke(0);
 	noFill();
-	for(var i = 0; i < pointsNum; i++){
-		
+	for(var i = 0; i < pointsNum; i++){		
 		ellipse(points[i].x, points[i].y, rad[i], rad[i]);
 	}
 
-	stroke(200,200,0);
-
-
-
+	stroke(0);
 	lerpVal += lerpInc;
-
 	if(lerpVal < 1){//b extends towards c
 		b.x = lerp(a.x, c.x, lerpVal);
 		b.y = lerp(a.y, c.y, lerpVal);
