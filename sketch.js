@@ -32,13 +32,13 @@ function setup(){
 function draw(){
 	background(255);
 	strokeWeight(1);
-	stroke(0);
+	stroke(200);
 	noFill();
 	for(var i = 0; i < pointsNum; i++){		
 		ellipse(points[i].x, points[i].y, rad[i], rad[i]);
 	}
 
-	stroke(0);
+	stroke(50);
 	lerpVal += lerpInc;
 	if(lerpVal < 1){//b extends towards c
 		b.x = lerp(a.x, c.x, lerpVal);
